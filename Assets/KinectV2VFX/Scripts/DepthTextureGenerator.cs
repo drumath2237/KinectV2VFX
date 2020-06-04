@@ -26,7 +26,7 @@ namespace KinectV2VFX
             }
             
 
-            byte[] _rawData = new byte[depthData.Length * 2];
+            byte[] _rawData = new byte[depthData.Length*2];
             
             Buffer.BlockCopy(depthData, 0, _rawData, 0, depthData.Length*2);
 
